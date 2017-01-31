@@ -1,0 +1,343 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html>
+	<head>
+		<script src="js/jquery.js"></script>
+		<script src="js/snake.js"></script>
+		<script src="js/sorcery.js"></script>
+		<link type="text/css" rel="stylesheet" href="css/style.css" />
+		<link type="text/css" rel="stylesheet" href="css/snake.css" />
+		<meta lang="fr" xml:lang="fr" content="text/html;charset=UTF-8" http-equiv="Content-Type">
+		<title>Dark Souls Time</title>
+	</head>
+		
+	<body>
+			<div class="section" id="intro">
+				<h2>Dark Souls Time</h2>
+				Incarnez Finn l'humain accompagné de Jake son chien magique qui se retrouvent perdu dans l'univers de Dark Souls.
+				
+				<button go="20">Commencer l'aventure !</button>
+			</div>
+		
+			<div class="section" id="20">
+				<p>L'entrée de la grotte ne présage rien de bon mais l'aventure vous appelle et vous n'avez d'autre choix que de lui répondre.</p>
+				<p>Après quelques mètres la grotte se sépare en deux chemins. 
+				A gauche une route sinueuse au fond de laquelle vous distinguez une lumière chaleureuse, à droite un passage plus dégagé et dont les murs semblent richement décorés.</p>
+
+				<action name="start"/>
+
+				<button go="21">Vous choisissez de partir explorer le chemin de gauche</button>
+				<button go="50">Vous choisissez de partir explorer le chemin de droite</button>
+			</div>
+
+			<div class="section" id="21">
+				<p>A peine engagés, vous marchez sur une vielle planche de bois. Sous la poussière vous parvenez à lire "Izalith".</p>
+				<p>Vous êtes intrigué vous ne connaissez pas ce nom mais vous vous dites qu'il serait bon de vous en souvenir car il a surement un lien avec ce lieu.</p>
+				<p>Jack vous interpelle il a trouvé des vivres et s'apprête à les entammer avec enthousiasme.</p>
+				
+				<button go="23">Vous vous précipitez sur lui et vous l'empêchez de manger quoique ce soit on ne sait jamais</button>
+				<button go="22">Vous avez justement un petit creux quelle chance !</button>
+			</div>
+
+			<div class="section" id="22">
+				<p>Le contenu du panier abandonné et délicieux ! Mais la nourriture vous pèse lourdement sur l'estomac. </p>
+				<p>Vous trouvez aussi un yoyo lumineux au fond et vous décidez de le glisser dans votre sac.</p>
+				
+				<button go="23">Vous vous rermettez en route</button>
+			</div>
+
+			<div class="section" id="23">
+				<p>Plus vous vous enfoncez dans la grotte et plus la chaleur se fait étouffante. 
+				Enfin vous finissez par déboucher sur une vaste carverne parcourue de multiples veines de laves rougeoiyantes.</p>
+				
+				<button go="24">Ce spectacle anime votre flamme d'explorateur et vous décidez de fouiller les alentours</button>
+				<button go="50">La lave c'est pas trop votre truc, vous transpirez comme pas possible vous préférez retourner sur vos pas pour tenter le chemin de droite</button>
+			</div>
+
+			<div class="section" id="24">
+				<p>Jack ne semble pas très à l'aise. Il insiste pour que vous restiez sur vos gardes.
+				Non loin se trouve un cadavre calciné portant un casque et une épée, vous décidez de vous en équiper.</p>
+				
+				<button go="26">Que nenni cet endroit est merveilleux ! Vous avancez gaiement vers un vieil escalier en ruine</button>
+				<button go="25">Vous suivez ses recommandations et vous prenez soin de scruter les moindres recoins</button>
+			</div>
+
+			<div class="section" id="25">
+				<p>En examinant une roche trouée vous découvrez une broche en or ouvragé. Vous la rangez dans votre sac à dos.</p>
+				<p>Non loin vous vous rendez compte qu'une pierre similaire à celle que vous venez d'inspecter semble bouger et du coin de l'oeil vous remarquez un visage...</p>
+				
+				<button go="26">Vous engagez un combat n'écoutant que votre bravoure !</button>
+				<button go="26">Vous engagez la discussion n'écoutant que votre diplomacie !</button>
+				<button go="32">Vous engagez une retraite stratégique n'écoutant que votre bon sens !</button>
+			</div>
+
+			<div class="section" id="26">
+				<p>Une roche vous dépassant d'au moins deux têtes tourne vers vous et se met à cracher du feu en votre direction !</p>
+				
+				<button go="32">Vous tentez une retraite</button>
+				<button go="27">Vous ordonnez à Jack de l'encercler et vous vous préparez à abattre votre épée sur son crâne</button>
+				<button go="29">Vous faites un signe de tête à Marceline puis à Jack et vous vous préparez pour une attaque groupée</button>
+			</div>
+
+			<div class="section" id="27">
+				<p>La roche se révèle plus molle que vous ne le pensiez. 
+				Vous parvenez à entammer se que vous pouvez considérer comme son crane mais elle continue a glisser lentement vers vous et crache à nouveau du feu.</p>
+				
+				<button go="28">Encore un effort !</button>
+				<button go="32">Retraite stratégique !</button>
+			</div>
+
+			<div class="section" id="28">
+				<p>Jack resserre son étreinte vous profitez que la roche soit immobile pour placer toutes vos forces dans un ultime coup.</p>
+				<p>Elle s'effondre à vos pied répendant au sol un liquide poisseux.</p>
+				<p>Votre ami en est recouvert. Vous lui en devez une, il vous a été d'une grande aide et vous n'aimeriez pas être à sa place.</p>
+				
+				<button go="32">Vous poursuivez votre chemin en prenant soin de mettre une distance de sécurité entre vous et les rochers environnant</button>
+				<button go="30">Vous décidez de bifurquer vers un passage étroit qui vient de se découvrir</button>
+			</div>
+
+			<div class="section" id="29">
+				<p>Vous aviez oublié à quel point Marceline était redoutable au combat. Elle réduit en bouillie la roche incendiaire et lache un rire tonitrant.
+				Vous avez un peu pitié de cette bestiole...</p>
+				
+				<button go="32">Vous poursuivez votre chemin en prenant soin de mettre une distance de sécurité entre vous et les rochers environnant</button>
+				<button go="30">Vous décidez de bifurquer vers un passage étroit qui vient de se découvrir</button>
+			</div>
+
+			<div class="section" id="30">
+				<p>Vous entrez dans une petite alcove un peu plus sombre. Une ombre attire votre attention au fond de la salle.</p>
+				
+				<button go="31">Vous vous approchez</button>
+				<button go="32">Vous partez, la curiosité est parfois un vilain défaut</button>
+			</div>
+
+			<div class="section" id="31">
+				<p>L'ombre se retourne et vous fait face. Il semblerait que ce soit une vieille femme, plutôt décharnée.</p>
+				<p>Elle ne vous veut aucun mal. Elle vous fait signe qu'elle est muette. 
+				Vous jetez un oeil derrière elle. On dirait qu'elle veille sur une sorte de vielle épée plantée dans le sol.</p>
+				<p>Sa main se pose sur votre bras, elle vous indique un sac de toille posé non loin. Vous y trouvez une clef.</p>
+				
+				<button go="32">Vous la remerciez et reprenez votre route</button>
+			</div>
+
+			<div class="section" id="32">
+				<p>Devant vous au loin se dresse une porte lumineuse, comme une sorte de portail magique.
+				En vous approchant vous remarquez qu'un guerrier semble garder l'entrée. 
+				Vous n'avez pas le choix il faut l'affronter ou retourner sur vos pas...</p>
+				
+				<button go="33">Affrontez le</button>
+				<button go="50">Retournez sur vos pas</button>
+			</div>
+
+			<div class="section" id="33">
+				<p>La créature est un minotaure imposant, massif tenant 2 épées courbées. Il vous toise et contrairement à ce que vous pensiez il ne vous attaque pas.
+				Il désigne un vase à ses côtés et vous indique de déposer une offrande si vous espérez ouvrir la porte.</p>
+				
+				<button go="34">Déposez le yoyo lumineux</button>
+				<button go="34">Déposez la broche dorée</button>
+				<button go="35">Déposez la clef</button>
+				<button go="35">Vous n'avez rien sur vous, vous vous préparez au combat</button>
+			</div>
+
+			<div class="section" id="34">
+				<p>L'homme-bête semble faciné par les reflets brillants de l'objet que vous venez de déposer. Il vous juge digne de passer et dégage le passage.</p>
+				<p>Vous traversez le portail de lumière et faites face à une porte vérouillée...</p>
+				
+				<button go="41">Tentez d'ouvrir avec la clef</button>
+				<button go="39">Fouillez les environs</button>
+			</div>
+
+			<div class="section" id="35">
+				<p>Le minautore est furieux ! Il vous accuse de vous moquer de lui et se rue sur vous !</p>
+				
+				<button go="36">Vous comptez sur Marceline pour lui régler son compte</button>
+				<button go="37">Vous vous préparez à riposter avec Jack</button>
+				<button go="38">Vous tentez de fuir</button>
+			</div>
+
+			<div class="section" id="36">
+				<p>Marceline assure comme toujours ! Et rapide comme l'éclair elle donne une bonne correction à ce bovin. </p>
+				<p>Cependant au passage vous avez pris un coup de l'un ou de l'autre dans l'épaule...</p>
+				
+				<button go="40">Entrez dans le portail de lumière</button>
+			</div>
+
+			<div class="section" id="37">
+				<p>Le guerrier vous projette au sol et s'en suis une violente mêlée de laquelle vous finissez par sortir victorieux mais mal en point... </p>
+				
+				<button go="40">Entrez dans le portail de lumière</button>
+			</div>
+
+			<div class="section" id="38">
+				<p>Vous ne pouvez pas fuir !</p> 
+				<p>La créature immense vous rattrappe en moins de deux.</p>
+				
+				<button go="37">Combattez</button>
+				<button go="36">Vous comptez sur Marceline pour lui régler son compte</button>
+			</div>
+
+			<div class="section" id="39">
+				<p>Vous ne tardez pas à remarquer le sac contenant les effets personnels du minautore. </p>
+				<p>Vous y trouvez une clef ainsi que le nécessaire pour soigner vos blessures.</p>
+				
+				<button go="41">Tentez d'ouvrir la porte avec la clef</button>
+			</div>
+
+			<div class="section" id="40">
+				<p>Vous traversez le portail de lumière et faites face à une porte vérouillée...</p>
+				
+				<button go="41">Tentez d'ouvrir avec la clef</button>
+				<button go="39">Fouillez les environs</button>
+			</div>
+
+			<div class="section" id="41">
+				<p>La porte s'ouvre. De l'autre côté une voix familière pousse un cri de surprise.
+				Vous faites face à une jolie jeune fille aux cheuveux roux, votre amour de toujours la princesse des flammes ! </p>
+				<p>Vous sautez de joie dans ces bras ravie de la revoir !</p>
+				<p>Princesse des flammes recrutée !!</p>
+				
+				<button go="42">Donnez lui la broche ramassée un peu plus tard, elle lui irait si bien !</button>
+				<button go="44">Racontez lui votre périple et partez explorer le reste de la grotte</button>
+				<button go="43">Demandez lui ce qu'elle fait ici </button>
+			</div>
+
+			<div class="section" id="42">
+				<p>La princesse est ravie ! Pour vous remercier elle dépose un baiser sur votre joue.</p>
+				<p>Vous vous sentez en pleine forme !</p>
+				
+				<button go="44">Racontez lui votre périple et partez explorer le reste de la grotte</button>
+				<button go="43">Demandez lui ce qu'elle fait ici</button>
+			</div>
+
+			<div class="section" id="43">
+				<p>Elle vous raconte avoir appris que le roi des glaces préparait un mauvais coup... Il projetait d'enlever ses opposants pour les envoyer dans un monde infernal !</p>
+				<p>Elle était partie en fillature lorsqu'un énorme et monstreux millepatte démoniaque avait surgit de nulle part et l'avait trainée au fond de cette grotte. </p>
+				<p>D'après elle, elle ne serait pas la seule victime...</p>
+				
+				<button go="44">Vous pestez contre le roi des glaces et promettez à votre princesse que vous la protègerez au péril de votre vie et vous vous remettez en route</button>
+			</div>
+
+			<div class="section" id="44">
+				<p>En avançant vous vous sentez observés... Au détour d'un chemin il vous semble appercevoir un pingouin courir le plus furtivement qu'il puisse.
+				Sur vos gardes vous vous engagez dans un couloir sombre.</p>
+				<p>Tout d'un coup vous sentez du mouvement autour de vous ! Le temps de tourner la tête et vous vous retrouvez seul avec Jack !</p>
+				<p>Un rire résonne devant vous.</p>
+				
+				<button go="45">Avancez en direction du rire</button>
+			</div>
+
+			<div class="section" id="45">
+				<p>Le roi des glaces se tient devant vous ! Son rire vous agace profondément...</p>
+				
+				<button go="46">Vous le menacez et vous lui ordonnez de libérer vos amis</button>
+				<button go="46">Vous l'attaquez directement sans réfléchir</button>
+				<button go="48">Vous l'implorez à genoux de libérer vos amis</button>
+			</div>
+
+			<div class="section" id="46">
+				<p>Vous ne pouvez vous en prendre impunément au roi des glaces ! Trois pingoins surgissent derrière vous tandis que le roi gèle la jambe droite de Jack.</p>
+				
+				<button go="47">Vous frappez de toutes vos forces les pingouins qui vous entourent</button>
+				<button go="49">Vous proposez au roi de régler cette histoire dans un duel équitable</button>
+			</div>
+
+			<div class="section" id="47">
+				<p>Vous ne faites que vous fatiguer et les pingouins vous semblent de plus en plus nombreux...</p>
+				
+				<button go="47">Vous continuez frappez de toutes vos forces les pingouins qui vous entourent</button>
+				<button go="49">Vous proposez au roi de régler cette histoire dans un duel équitable</button>
+			</div>
+
+			<div class="section" id="48">
+				<p>Vous avez le mérite de surprendre le roi mais celui-ci ne flanchera pas comme ça...</p>
+				
+				<button go="46">Vous le menacez et vous lui ordonnez de libérer vos amis</button>
+				<button go="46">Vous l'attaquez</button>
+				<button go="49">Vous proposez au roi de régler cette histoire dans un duel équitable</button>
+			</div>
+
+			<div class="section" id="49">
+				<p>Règles du jeu : Pour vaincre le roi des glaces vous devez récupérer vos trois amies Marceline, la princesse des flammes et la princesse chewing-gum.
+				Attention cependant à ne pas toucher le roi ou l'un de ses pingouins sbires !
+				Une fois vos amies récupérées rejoignez la sortie.</p>
+				<p>Déplacez vous avec les flèches directionelles de votre clavier.</p>
+				<p>Attention vous perdez une vie en touchant les bords !</p>
+				
+				<button go="game">Lancez le duel</button>
+			</div>
+
+			<div class="section" id="50">
+				<p>Les murs sont superbes ! La pierre blanche immaculée, l'imposant escalier en spirale tout est magnifique !</p>
+				<p>Soudain une ombre surgit ! C'est votre amie Marceline qui était aussi en vadrouille, elle rejoint votre groupe.</p>
+				<p>Sur le côté vous appercevez un coffre.</p>
+				<p>Marceline recrutée !!</p>
+				
+				<button go="51">Tentez de l'ouvrir</button>
+				<button go="52">Passez votre chemin</button>
+			</div>
+
+			<div class="section" id="51">
+				<p>Le coffre se révèle être une créature immondes aux dents assérées et coupantes comme des lames de rasoir !</p>
+				
+				<button go="21">Fuyez vers le chemin de gauche</button>
+				<button go="52">Fuyez vers le fond du couloir</button>
+			</div>
+
+			<div class="section" id="52">
+				<p>Soudain vous heutez un chevalier géant armé d'une lance et d'un bouclier. Vous n'avez pas le temps de réagir que celui-ci vous charge !</p>
+				
+				<button go="21">Fuyez vers le chemin de gauche</button>
+				<button go="53">Tentez de le combattre courageusement</button>
+			</div>
+
+			<div class="section" id="53">
+				<p>Le chevalier est beaucoup trop puissant pour vous, il vous écrase littéralement...</p>
+				<p>Vous êtes mort...</p>
+				
+				<button go="20">Rejouer</button>
+			</div>
+
+			<div class="section" id="death">
+				<p>Vous vous sentez fort mal en point... Vous vous souvenez soudain que dans votre poche se trouve une potion de retour temporel...</p>
+				
+				<button go="20">Boire la potion et rejouer</button>
+			</div>
+
+			<div class="section" id="end">
+				<p>Bravo vous avez gagné !!</p>
+				
+				<button go="20">Rejouer</button>
+			</div>
+
+
+
+			<!-- JEU **************************************-->
+			<div class="section" id="game">
+				<p class="info"></p>
+				<button go="resetGame">Rejouer</button>
+				<button go="play">Sauvez vos amis</button>
+				<button go="end">Sortir du donjon</button>
+				<button go="death">"Aaargh...."</button>
+			</div>
+			<!-- JEU **************************************-->
+
+			
+			<div id="player" class="box">
+				 
+			</div>
+		<div id="container">
+			<div id="items">
+				<img class="item" src="img/box.png" empty="0" alt=""/>
+				<img class="item" src="img/box.png" empty="0" alt=""/>
+				<img class="item" src="img/box.png" empty="0" alt=""/>
+				<img class="item" src="img/box.png" empty="0" alt=""/>
+			</div>
+			<div class="life">
+				<p>Life : <span class="value">--</span></p>
+			</div>
+			<div id="player">
+			<img src="img/finn-jake-battle-ready.gif" alt="player"/> 
+			</div>
+		</div>
+	</body>
+
+</html>

@@ -1,0 +1,99 @@
+body {
+	font-size : 13pt;
+	font-family : "Trebuchet MS", Arial, sans-serif;
+	background-image:url(../img/intro_background.png);
+	background-repeat:no-repeat;
+	background-size: cover;
+}
+
+h2 {
+	margin-top : 0px;
+	font-weight : bold;
+}
+
+
+#container {
+  width: 100%;
+  position: fixed;
+  margin-top: 200px;
+  display: flex;                 
+  flex-direction: row;            
+  flex-wrap: nowrap;              
+  justify-content: space-between;
+  bottom: 0;
+  background: black;
+  border-radius: 10px 10px 10px 10px;
+ }
+
+ #container > div {
+  height: 150px;
+}
+
+#items{
+	width: 70%;
+}
+
+.item{
+	height: 150px;
+	width: 24%;
+}
+
+.life{
+	width: 10%;
+	color: white;
+	border: 2px solid red;
+	text-align: center;
+}
+
+.life p{
+	margin-top: 50%;
+}
+
+#player{
+	width: 20%;
+}
+
+#player img{
+	height: 150px;
+	width: 277px;
+	border-radius: 80px 10px 10px 70px;
+	/*border-radius: 5px 30px 50px 15px;*/
+}
+
+.section {
+	padding : 10px;
+	margin : auto;
+	margin-top : 300px;
+	max-width : 600px;
+	border : 1px solid lightGray;
+	background-color: white;
+}
+.section#intro {
+	display : block;
+}
+.section button {
+	display : block;
+	width : 100%;
+	color : black;
+	text-decoration : none;
+	padding : 5px;
+	margin-top : 30px;
+	background : lightGray;
+	border : none;
+	cursor : pointer;
+}
+.section button+button  {
+	margin-top : 10px;
+}
+
+.section button:hover {
+	color : lightGray;
+	background-color : black;
+}
+
+.battle {
+	padding : 10px 10px;
+	margin : 20px 0px;
+	box-shadow : 0px 2px 8px gray;
+}
+

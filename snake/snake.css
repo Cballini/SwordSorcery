@@ -1,0 +1,95 @@
+table.endGame{
+border:1px solid #000;
+margin: 0 auto;
+background-image: url("img/backgroundGame.png");
+background-size: 100% 100%;
+background-repeat: no-repeat;
+}
+
+td.endGame{
+	width: 80px;
+	height: 60px;
+}
+
+td.corps_snake{
+	
+	border-radius: 10px;
+}
+
+td.tete_snake{
+	
+	border-radius: 10px;
+}
+
+td.fruit
+{
+	
+	border-radius: 10px;
+}
+
+td.iceKing{
+	background-image: url("img/iceKing.png");
+	background-size: 100% 100%;
+    background-repeat: no-repeat;
+}
+
+td.gunter{
+	background-image: url("img/gunter.png");
+	background-size: 100% 100%;
+    background-repeat: no-repeat;
+}
+
+td.finn{
+	background-image: url("img/finn.png");
+	background-size: 100% 100%;
+    background-repeat: no-repeat;
+}
+
+td.jake{
+	background-image: url("img/jake.png");
+	background-size: 100% 100%;
+    background-repeat: no-repeat;
+}
+
+td.bubblegum{
+	background-image: url("img/bubblegum.png");
+	background-size: 100% 100%;
+    background-repeat: no-repeat;
+}
+
+td.flame{
+	background-image: url("img/flame.png");
+	background-size: 100% 100%;
+    background-repeat: no-repeat;
+}
+
+td.marceline{
+	background-image: url("img/marceline.png");
+	background-size: 100% 100%;
+    background-repeat: no-repeat;
+}
+
+td.gameDoor{
+	background-image: url("img/door.png");
+	background-size: 100% 100%;
+    background-repeat: no-repeat;
+}
+
+#score
+{
+	text-align: center;
+	font-size: 30px;
+}
+
+#gameOver
+{
+	position:absolute;
+	left: 50%;
+	background-color: #000;
+	color:#FFF; 
+	font-size: 30px;
+	border-radius: 10px;
+	width: 300px;
+	text-align: center;
+	display: none; 
+}
